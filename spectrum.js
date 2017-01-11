@@ -642,6 +642,8 @@
             reflow();
             updateUI();
 
+            opts.showInput && textInput.focus().select();
+
             colorOnShow = get();
 
             drawInitial();
