@@ -73,7 +73,7 @@
         return contains(style.backgroundColor, 'rgba') || contains(style.backgroundColor, 'hsla');
     })(),
     replaceInput = [
-        "<div class='sp-replacer'>",
+        "<div class='sp-replacer' tabindex='0'>",
             "<div class='sp-preview'><div class='sp-preview-inner'></div></div>",
             "<div class='sp-dd'>&#9660;</div>",
         "</div>"
@@ -313,6 +313,12 @@
 
                 if (!$(e.target).is("input")) {
                     e.preventDefault();
+                }
+            });
+
+            replacer.on('keydown.spectrum', function(e){
+                if((e.keyCode == 13 || e.keyCode == 32) && !disabled) {
+                    toggle();
                 }
             });
 
