@@ -689,6 +689,10 @@
 
             callbacks.hide(get());
             boundElement.trigger('hide.spectrum', [ get() ]);
+
+            setTimeout(function(){
+                document.activeElement != document.body && replacer.focus();
+            }, 1);
         }
 
         function revert() {
