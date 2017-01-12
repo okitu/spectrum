@@ -1239,6 +1239,210 @@
         }
     };
 
+    // Locales
+
+    $.spectrum.localization["ar"] = {
+        cancelText: "إلغاء",
+        chooseText: "إختار",
+        clearText: "إرجاع الألوان على ما كانت",
+        noColorSelectedText: "لم تختار أي لون",
+        togglePaletteMoreText: "أكثر",
+        togglePaletteLessText: "أقل"
+    };
+
+    $.spectrum.localization["ca"] = {
+        cancelText: "Cancel·lar",
+        chooseText: "Escollir",
+        clearText: "Esborrar color seleccionat",
+        noColorSelectedText: "Cap color seleccionat",
+        togglePaletteMoreText: "Més",
+        togglePaletteLessText: "Menys"
+    };
+
+    $.spectrum.localization["cs"] = {
+        cancelText: "zrušit",
+        chooseText: "vybrat",
+        clearText: "Resetovat výměr barev",
+        noColorSelectedText: "Žádná barva nebyla vybrána",
+        togglePaletteMoreText: "více",
+        togglePaletteLessText: "méně"
+    };
+
+    $.spectrum.localization["de"] = {
+        cancelText: "Abbrechen",
+        chooseText: "Wählen",
+        clearText: "Farbauswahl zurücksetzen",
+        noColorSelectedText: "Keine Farbe ausgewählt",
+        togglePaletteMoreText: "Mehr",
+        togglePaletteLessText: "Weniger"
+    };
+
+    $.spectrum.localization["dk"] = {
+        cancelText: "annuller",
+        chooseText: "Vælg"
+    };
+
+    $.spectrum.localization["es"] = {
+        cancelText: "Cancelar",
+        chooseText: "Elegir",
+        clearText: "Borrar color seleccionado",
+        noColorSelectedText: "Ningún color seleccionado",
+        togglePaletteMoreText: "Más",
+        togglePaletteLessText: "Menos"
+    };
+
+    $.spectrum.localization["fa"] = {
+        cancelText: "لغو",
+        chooseText: "انتخاب",
+        clearText: "تنظیم مجدد رنگ",
+        noColorSelectedText: "هیچ رنگی انتخاب نشده است!",
+        togglePaletteMoreText: "بیشتر",
+        togglePaletteLessText: "کمتر"
+    };
+
+    $.spectrum.localization["fi"] = {
+        cancelText: "Kumoa",
+        chooseText: "Valitse"
+    };
+
+    $.spectrum.localization["fr"] = {
+        cancelText: "Annuler",
+        chooseText: "Valider",
+        clearText: "Effacer couleur sélectionnée",
+        noColorSelectedText: "Aucune couleur sélectionnée",
+        togglePaletteMoreText: "Plus",
+        togglePaletteLessText: "Moins"
+    };
+
+    $.spectrum.localization["gr"] = {
+        cancelText: "Ακύρωση",
+        chooseText: "Επιλογή",
+        clearText: "Καθαρισμός επιλεγμένου χρώματος",
+        noColorSelectedText: "Δεν έχει επιλεχθεί κάποιο χρώμα",
+        togglePaletteMoreText: "Περισσότερα",
+        togglePaletteLessText: "Λιγότερα"
+    };
+
+    $.spectrum.localization["he"] = {
+        cancelText: "בטל בחירה",
+        chooseText: "בחר צבע",
+        clearText: "אפס בחירה",
+        noColorSelectedText: "לא נבחר צבע",
+        togglePaletteMoreText: "עוד צבעים",
+        togglePaletteLessText: "פחות צבעים"
+    };
+
+    $.spectrum.localization["hr"] = {
+        cancelText: "Odustani",
+        chooseText: "Odaberi",
+        clearText: "Poništi odabir",
+        noColorSelectedText: "Niti jedna boja nije odabrana",
+        togglePaletteMoreText: "Više",
+        togglePaletteLessText: "Manje"
+    };
+
+    $.spectrum.localization["id"] = {
+        cancelText: "Batal",
+        chooseText: "Pilih",
+        clearText: "Hapus Pilihan Warna",
+        noColorSelectedText: "Warna Tidak Dipilih",
+        togglePaletteMoreText: "tambah",
+        togglePaletteLessText: "kurangi"
+    };
+
+    $.spectrum.localization["it"] = {
+        cancelText: "annulla",
+        chooseText: "scegli",
+        clearText: "Annulla selezione colore",
+        noColorSelectedText: "Nessun colore selezionato"
+    };
+
+    $.spectrum.localization["ja"] = {
+        cancelText: "中止",
+        chooseText: "選択"
+    };
+
+    $.spectrum.localization["ko"] = {
+        cancelText: "취소",
+        chooseText: "선택",
+        clearText: "선택 초기화",
+        noColorSelectedText: "선택된 색상 없음",
+        togglePaletteMoreText: "더보기",
+        togglePaletteLessText: "줄이기"
+    };
+
+    $.spectrum.localization["lt"] = {
+        cancelText: "Atšaukti",
+        chooseText: "Pasirinkti",
+        clearText: "Išvalyti pasirinkimą",
+        noColorSelectedText: "Spalva nepasirinkta",
+        togglePaletteMoreText: "Daugiau",
+        togglePaletteLessText: "Mažiau"
+    };
+
+    $.spectrum.localization["nl-nl"] = {
+        cancelText: "Annuleer",
+        chooseText: "Kies",
+        clearText: "Wis kleur selectie",
+        togglePaletteMoreText: 'Meer',
+        togglePaletteLessText: 'Minder'
+    };
+
+    $.spectrum.localization["pl"] = {
+        cancelText: "Anuluj",
+        chooseText: "Wybierz",
+        clearText: "Usuń wybór koloru",
+        noColorSelectedText: "Nie wybrano koloru",
+        togglePaletteMoreText: "Więcej",
+        togglePaletteLessText: "Mniej"
+    };
+
+    $.spectrum.localization["pt-br"] = {
+        cancelText: "Cancelar",
+        chooseText: "Escolher",
+        clearText: "Limpar cor selecionada",
+        noColorSelectedText: "Nenhuma cor selecionada",
+        togglePaletteMoreText: "Mais",
+        togglePaletteLessText: "Menos"
+    };
+
+    $.spectrum.localization["ru"] = {
+        cancelText: "Отмена",
+        chooseText: "Выбрать",
+        clearText: "Сбросить",
+        noColorSelectedText: "Цвет не выбран",
+        togglePaletteMoreText: "Ещё",
+        togglePaletteLessText: "Скрыть"
+    };
+
+    $.spectrum.localization["sv"] = {
+        cancelText: "Avbryt",
+        chooseText: "Välj"
+    };
+
+    $.spectrum.localization["tr"] = {
+        cancelText: "iptal",
+        chooseText: "tamam"
+    };
+
+    $.spectrum.localization["zh-cn"] = {
+        cancelText: "取消",
+        chooseText: "选择",
+        clearText: "清除",
+        togglePaletteMoreText: "更多选项",
+        togglePaletteLessText: "隐藏",
+        noColorSelectedText: "尚未选择任何颜色"
+    };
+
+    $.spectrum.localization["zh-tw"] = {
+        cancelText: "取消",
+        chooseText: "選擇",
+        clearText: "清除",
+        togglePaletteMoreText: "更多選項",
+        togglePaletteLessText: "隱藏",
+        noColorSelectedText: "尚未選擇任何顏色"
+    };
+
     $(function () {
         if ($.fn.spectrum.load) {
             $.fn.spectrum.processNativeColorInputs();
