@@ -691,7 +691,7 @@
             boundElement.trigger('hide.spectrum', [ get() ]);
 
             setTimeout(function(){
-                document.activeElement != document.body && replacer.focus();
+                document.activeElement == document.body && replacer.focus();
             }, 1);
         }
 
